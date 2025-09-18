@@ -20,7 +20,7 @@ section {
 .nusantara-container{
     height: 100vh;
     width: 100vw;
-    background: url(Images/BERANDA/4.png);
+    background: url(Images/BERANDA/El.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -130,6 +130,12 @@ a{
 .main-sub-top h1{
     font-size: 3rem;
     text-shadow: 0 0 10px var(--secondary-color);
+    margin: 0;
+    padding: 0;
+}
+
+.sub-top-h1{
+    margin: 1rem 0;
 }
 
 .main-sub-top p {
@@ -189,6 +195,31 @@ span{
     color: var(--fourth-color);
     font-size: 2.5rem;
 }
+
+.social-media {
+    position: fixed;
+    top: 50%;
+    left: 0.3rem;
+    z-index: 99999;
+}
+
+.social-media-links a{
+    color: var(--primary-color);
+    font-size: 1.25rem;
+}
+
+.social-media-links a:hover{
+    color: var(--fourth-color);
+}
+
+.social-media ul li {
+    list-style: none;
+}
+
+ul.social-media-links{
+    padding-left: 0.3rem;
+}
+
 
 /* Monitor > 24 inch */
 @media (max-width: 1400px) {
