@@ -599,6 +599,7 @@ ul.side-links{
 .animal-sub-bott{
     width: 100%;
     display: flex;
+    gap: 2rem;
     justify-content: space-between;
     
 }
@@ -620,7 +621,7 @@ ul.side-links{
     position: absolute;
     bottom: 0;             /* nempel bawah gambar */
     left: 0;
-    width: 88%;
+    width: 95%;
     background: rgba(0, 0, 0, 0.5);  
     color: white;
     box-sizing: border-box;
@@ -924,6 +925,8 @@ ul{
         height: auto;
     }
  }
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
      .nothing-container{
         text-align: center;
@@ -958,10 +961,11 @@ ul{
         flex: 1;
     }
 
-    .f-sub-left-bot{
+    /* .f-sub-left-bot{
+        min-width: 100%;
         width: 190%;
         transform: translateX(-52%);
-    }
+    } */
 
      .popular-sub-bott{
         width: 35%;
@@ -1015,4 +1019,39 @@ ul{
     #simpase{
          object-position: top right;
     }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1500px) {
+    .popular-sub-bott{
+        width: 22%;
+        height: 20rem;
+        justify-content: center;
+        /* align-items: c; */
+        /* margin: 0 auto; */
+    }
+     
+    .p-sub-bott-1-1 img{
+        width: 80%;
+        display: flex;
+    }
+
+    .p-sub-bott-1-2{
+        width: 100%;
+    }
+
+    .p-sub-bott-1-2 ion-icon{
+        font-size: 3rem;
+    }
+
+    .a-subb-bott-main{
+        width: 40%;
+        margin: 0 auto;
+    }
+    
+    .animal-titles{
+        left: 0%;
+        width: 100%;
+        /* display: none; */
+    }
+
 }
