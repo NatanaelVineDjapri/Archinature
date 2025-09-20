@@ -1,4 +1,3 @@
-
 html,body{
     margin: 0;
     padding: 0;
@@ -112,7 +111,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-around; 
-    height: 90vh; 
+    height: 100vh; 
     box-sizing: border-box;
 }
 
@@ -171,7 +170,6 @@ a{
 }
 
 .main-img img {
-  /* width: clamp(12rem, 15vw, 20rem); */
   width: 15vw;
   max-width: 100%;   
   height: auto;
@@ -248,7 +246,6 @@ span{
     z-index: 99999;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    
 }
 
 .side ul li {
@@ -258,7 +255,6 @@ span{
 ul.side-links{
     padding-left: 0.3rem;
 }
-
 
 .section-container{
     width: 100%;
@@ -313,7 +309,6 @@ ul.side-links{
 
 .l-sub-left-top p{
     text-align: justify;
-    /* text-indent: 3rem; */
     line-height: 1.5;
 }
 .learn-bot-sub-right{
@@ -365,7 +360,6 @@ ul.side-links{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
     gap: 3rem;
 }
 
@@ -465,9 +459,6 @@ ul.side-links{
     flex: 1;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
 }
 
 .popular-title h1{
@@ -495,10 +486,11 @@ ul.side-links{
     flex-direction: column;
     gap: 1.5rem;
     align-items: center;
-    /* justify-content: center; */
     width: 17%;
     height: 23rem;
     margin-bottom: 2rem;
+    box-shadow: 4px 4px 4px var(--fourth-color); 
+    border-radius: 0; 
 }
 
 .p-sub-bott-1-1 {
@@ -509,12 +501,10 @@ ul.side-links{
 .p-sub-bott-1-1 img{
     width: clamp(10rem, 13rem, 20rem);
     margin: 0 auto;
-    /* border-radius: 0.5rem; */
 }
 
 .p-sub-bott-1-2{
     display: flex;
-    /* align-items: center; */
     gap: 0.7rem;
 
 }
@@ -580,6 +570,10 @@ ul.side-links{
     flex: 1;
 }
 
+.animal-title-sub a ion-icon{
+    font-size: 3rem;
+}
+
 .line-3{
     flex: 3;
     background-color: var(--fourth-color);
@@ -598,6 +592,7 @@ ul.side-links{
 .popular-title h1{
     margin-bottom: 0rem;
 }
+
 .animal-sub-bott{
     width: 100%;
     display: flex;
@@ -607,7 +602,6 @@ ul.side-links{
 }
 
 .a-subb-bott-main {
-    /* flex: 1 1 100%; */
     position: relative;   
     width: 100%;
     overflow: hidden;   
@@ -621,7 +615,7 @@ ul.side-links{
 
 .animal-titles {
     position: absolute;
-    bottom: 0;             /* nempel bawah gambar */
+    bottom: 0;            
     left: 0;
     width: 95%;
     background: rgba(0, 0, 0, 0.5);  
@@ -639,7 +633,6 @@ ul.side-links{
 .animal-title-sub {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 .animal-title-sub ion-icon{
@@ -655,7 +648,6 @@ ul.side-links{
     height: 30rem;
     display: block;
     width: auto;
-    
 }
 
 .section-3-container{
@@ -698,7 +690,6 @@ ul.side-links{
 
 .news{
     display: flex;
-    /* align-items: center; */
     color: var(--secondary-color);
     gap: 2rem;
 }
@@ -724,7 +715,6 @@ ul.side-links{
     font-size: 1.2rem;
     font-style: italic;
 }
-
 
 .footer-container{
     display: flex;
@@ -786,6 +776,13 @@ ul{
     padding: 0.5rem 0;     
     font-size: 0.9rem;      
     color: var(--third-color);        
+}
+
+.popular-sub-bott:hover,
+.a-subb-bott-main:hover{
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
 }
 
 
@@ -867,7 +864,6 @@ ul{
     .popular-sub-bott{
         width: 85%;
         height: auto;
-        /* margin: 0 auto; */
     }
      
     .p-sub-bott-1-1 img{
@@ -928,7 +924,6 @@ ul{
 
     .main-img img {
         width: 20rem;
-        /* max-width: 200%;     */
         height: auto;
     }
  }
@@ -968,16 +963,9 @@ ul{
         flex: 1;
     }
 
-    /* .f-sub-left-bot{
-        min-width: 100%;
-        width: 190%;
-        transform: translateX(-52%);
-    } */
-
      .popular-sub-bott{
         width: 35%;
         height: auto;
-        /* margin: 0 auto; */
     }
      
     .p-sub-bott-1-1 img{
@@ -1000,7 +988,6 @@ ul{
     .a-subb-bott-main img{
         height: 100%;
         width: 30vw;
-        /* margin: 0 auto; */
     }
 
     .a-subb-bott-main{
@@ -1010,7 +997,6 @@ ul{
     .animal-titles{
         left: 0%;
         width: 94%;
-        /* display: none; */
     }
 
     .news img{
@@ -1030,15 +1016,13 @@ ul{
 
 @media only screen and (min-width: 991px) and (max-width: 1500px) {
     .popular-sub-bott{
-        width: 22%;
+        width: 15%;
         height: 20rem;
         justify-content: center;
-        /* align-items: c; */
-        /* margin: 0 auto; */
     }
      
     .p-sub-bott-1-1 img{
-        width: 80%;
+        width: 90%;
         display: flex;
     }
 
@@ -1058,7 +1042,6 @@ ul{
     .animal-titles{
         left: 0%;
         width: 100%;
-        /* display: none; */
     }
 
 }
