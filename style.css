@@ -617,7 +617,7 @@ ul.side-links{
     position: absolute;
     bottom: 0;            
     left: 0;
-    width: 95%;
+    width: 17rem;
     background: rgba(0, 0, 0, 0.5);  
     color: white;
     box-sizing: border-box;
@@ -916,7 +916,30 @@ ul{
         height: auto;
     }
 
+    .footer-container{
+        font-size: 150%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-sub-left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-sub-center ul,
+    .footer-sub-right ul{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    ul.footer-ul{
+        justify-content: center;
+    }
+
 }
+
  @media only screen and (max-width: 400px) {
     html{
         font-size: 50%;
@@ -928,8 +951,14 @@ ul{
     }
  }
 
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    html{
+        font-size: 90%;
+    }
+    
+    .nav-sub-section ul{
+        justify-content: start;
+    }
      .nothing-container{
         text-align: center;
     }
@@ -1017,8 +1046,8 @@ ul{
 @media only screen and (min-width: 991px) and (max-width: 1500px) {
     .popular-sub-bott{
         width: 15%;
-        height: 20rem;
-        justify-content: center;
+        height: 23rem;
+        justify-content: start;
     }
      
     .p-sub-bott-1-1 img{
