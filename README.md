@@ -1,6 +1,8 @@
 ﻿# Archinature
 
-"Archinature" adalah sebuah proyek website blog yang berfokus pada keindahan alam dan kehidupan hewan liar. Proyek ini dibangun sebagai tugas praktikum mata kuliah frontend, menampilkan desain yang responsif, modern, dan mudah digunakan.
+**Archinature** adalah website blog yang menampilkan keindahan alam dan kehidupan hewan liar.  
+Proyek ini dibuat sebagai tugas praktikum mata kuliah Frontend, dengan desain **responsif**, **modern**, dan **user-friendly**.
+
 ---
 | NIM        | Nama             |
 |------------|-----------------|
